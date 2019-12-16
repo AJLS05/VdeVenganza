@@ -17,9 +17,6 @@ public class Jugador extends PapaDeLosPollitos{
 	private int puntuacion = 0;
 	private String ultimaAnimacion = "descanso";
 	public Juego juego;
-	
-//	private int puntuacion = 0;
-//	private int vidas=2;
 
 	public Jugador(int x, int y, String indiceImagen, int velocidad, String animacionActual ) {
 		super(x, y,indiceImagen);
@@ -36,12 +33,6 @@ public class Jugador extends PapaDeLosPollitos{
 				new Rectangle(126,1024,57,81),
 		};
 		animaciones.put("descanso",new Animacion("descanso",0.20,CoorrdenadasDescanso));
-//		Rectangle[] CoorrdenadasDefensa = {
-//				new Rectangle(25,621,57,79),
-//				new Rectangle(128,621,52,78),
-//				new Rectangle(234,621,47,79),
-//		};
-//		animaciones.put("defensa",new Animacion("defensa",0.20,CoorrdenadasDefensa));
 		Rectangle[] CoorrdenadasCaminarAbajo = {
 				new Rectangle(25,1024,57,78),
 				new Rectangle(126,1024,57,78),
@@ -96,11 +87,6 @@ public class Jugador extends PapaDeLosPollitos{
 			this.velocidad = 2;
 			this.indiceImagen = "esq";
 		}
-		
-		
-//		if (Juego.defensa) {
-//			this.animacionActual = "defensa";
-//		}
 			
 		if (Juego.derecha) {
 				

@@ -32,10 +32,8 @@ public class Juego extends Application{
 	public static boolean abajo;
 	public static boolean espacio;
 	public boolean Verificador = true;
-	//	public static boolean defensa;
 	public int nivel = 1;
 	long inicioPartida = System.nanoTime();
-
 
 	public static HashMap<String,Image> imagenes;
 	private ArrayList<Tile> tiles;
@@ -247,10 +245,10 @@ public class Juego extends Application{
 			{0,0,0,0,0,0,0,0,0,0,0,0,0,0},
 			{0,0,0,0,0,0,0,0,0,0,0,0,0,0},
 			{0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-			{0,0,4,4,4,4,4,0,0,4,0,3,0,0},
-			{0,0,4,0,0,4,4,4,0,4,3,0,3,0},
-			{0,0,4,4,0,4,4,0,4,4,0,3,0,0},
-			{0,0,4,0,0,4,4,0,0,4,0,3,0,0},
+			{0,4,4,4,0,4,0,4,0,0,4,3,3,3},
+			{0,4,0,0,0,4,0,4,4,0,4,0,0,3},
+			{0,4,4,0,0,4,0,4,0,4,4,0,3,3},
+			{0,4,0,0,0,4,0,4,0,0,4,0,3,0},
 			{0,0,0,0,0,0,0,0,0,0,0,0,0,0},
 
 	};
